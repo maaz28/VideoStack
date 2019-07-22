@@ -1,0 +1,167 @@
+$fa-font-path: "~font-awesome/fonts";
+@import "~font-awesome/scss/font-awesome";
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "variables";
+@import "shared/base";
+
+html {
+  background: url("https://source.unsplash.com/2560x1440/?forest,mountain") center no-repeat fixed;
+}
+
+body {
+  background: rgba(#000000, 0.6);
+  padding: 0px 20px 20px 20px;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+
+  img {
+    display: inline-block;
+    width: 50px;
+  }
+}
+
+#root {
+  h2 {
+    margin-top: 0px;
+  }
+
+  h4 {
+    margin-top: 20px;
+  }
+}
+
+.btn-action {
+  outline: none;
+  border: none;
+}
+
+.headerlogo {
+  display: inline-block;
+  float: left;
+  margin-left: 10px;
+  width: 150px;
+}
+
+.avatar-header {
+  display: inline-block;
+  width: 30px;
+  height: 30x;
+  border-radius: 128px;
+}
+
+.header-elements {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+
+}
+
+.header-elements h4 {
+  display: inline-block;
+  color: white;
+  margin-bottom: 0px !important;
+  margin-right: 15px;
+}
+
+.email-form {
+  margin: 0 auto;
+  width: 315px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #17242a;
+  height: 50px;
+  padding: 10px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+button {
+  font-size: 1.2em;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px #e5e5e5;
+  color: white;
+}
+
+.blockstack-logo {
+  width: 20px;
+}
+
+.signin-btn {
+  height: 35px !important;
+  background-color: white !important;
+  box-shadow: 10px 10px 11px rgba(0, 0, 0, 0.2) !important;
+  border-radius: 4px;
+  color: #17242a !important;
+
+}
+
+.signout-btn {
+  height: 35px !important;
+  background-color: white !important;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.2) !important;
+  border: none;
+  color: #17242a !important;
+}
+
+.link-signout {
+  text-decoration: underline;
+  color: white;
+  margin-left: 15px;
+  padding: 2px;
+}
+
+.signin-btn:hover {
+  color: white !important;
+  background-color: blue !important;
+  border: none;
+}
+
+.signin-btn-text {
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.logo {
+  margin-bottom: 35px;
+}
+
+.signin-container {
+  height: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.separator {
+  margin: 0 auto 14px;
+  border-top: #3d9068 2px solid;
+  width: 52px;
+}
+
+
+@import "main-window";
+@import "call-window";
+@import "call-modal";

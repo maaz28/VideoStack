@@ -1,0 +1,25 @@
+{
+  "name": "VideoStack",
+  "version": "1.0.0",
+  "description": "VideoStack App",
+  "main": " ",
+  "scripts": {
+    "install": "sh install.sh",
+    "postinstall": "cd client && yarn build",
+    "start": "cd server && yarn start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maaz28/VideoStack.git"
+  },
+  "engines": {
+    "node": "10.15.3",
+    "yarn": "1.13.0"
+  },
+  "author": "Maaz Jawaid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maaz28/VideoStack/issues"
+  },
+  "homepage": "https://github.com/maaz28/VideoStack#readme"
+}
