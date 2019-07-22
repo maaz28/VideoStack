@@ -1,7 +1,6 @@
 ## VideoStack
-Demo app: https://morning-escarpment-67980.herokuapp.com/  
+Demo app: https://videostackapp.herokuapp.com/
 
-<img align="right" width="360" src="https://raw.githubusercontent.com/maaz28/VideoStack/master/docs/ss1.jpg"  alt =" " style="border: solid 1px #d4d4d4" />
   
 Video call to your friend without registering. 
 Simply send your friend your auto-generated unique ID to make the call.  
@@ -17,15 +16,12 @@ cd server && yarn watch
 cd client && yarn watch
 ```
 
-**Deployment**
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/maaz28/VideoStack/tree/production)
-
 **Front-end Technologies:**
 - React
 - Webrtc
 - SCSS
 - Tools: webpack2
+- Blockstack Authentication
 
 **Back-end Technologies:**
 - NodeJS
